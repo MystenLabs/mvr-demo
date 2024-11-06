@@ -33,3 +33,6 @@ public fun set_name(hero: &mut Hero, name: String) {
 public fun set_name_v2(hero: &mut HeroV2, name: String) {
     hero.name = name;
 }
+
+// a noop function
+public fun noop<T>() {}
