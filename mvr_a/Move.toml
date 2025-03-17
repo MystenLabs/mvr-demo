@@ -1,0 +1,15 @@
+[package]
+name = "mvr_a"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet", override = true }
+
+
+[addresses]
+mvr_a = "0x0"
+
+
+
+#testnet_cap: 0x771728246283906ed0ac3491d3145d82505a0d436fa676e9bc267940afb8cb48
+#mainnet_cap: 0xef40db5eab4498578ecbe50b4107a92fc0389ea600378fc655c9b3d6ef9d9641
